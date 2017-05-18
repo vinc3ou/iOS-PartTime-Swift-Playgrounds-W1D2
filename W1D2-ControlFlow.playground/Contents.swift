@@ -47,7 +47,10 @@ if someThing == otherThing {
 //:
 //: Now see if you can make an `if`/`else` statement that prints out a grammatically correct description of how many bicycles we have. I.e. "There is 1 bicycle" or "There are 100 bicycles".
 
-bicycleCount = 1
+bicycleCount = 245
+
+
+if bicycleCount == 1 { print("There is 1 bicycle") } else { print("There are \(bicycleCount) bicycles") }
 
 
 
@@ -58,8 +61,8 @@ bicycleCount = 1
 
 bicycleCount = 0
 
-
-
+if bicycleCount == 1 { print("There is 1 bicycle") } else if (bicycleCount == 0) { print ("There are zero bicycles") } else { print("There are \(bicycleCount) bicycles") }
+ 
 
 
 //: ### Bonus Challenge
