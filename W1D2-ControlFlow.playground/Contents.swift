@@ -72,7 +72,7 @@ if bicycleCount == 1 { print("There is 1 bicycle") } else if (bicycleCount == 0)
 var inputString = "Do you like bicycles?"
 
 
-
+if inputString.hasSuffix("?") { print("I think so!") } else { print("You dont say!") }
 
 
 
